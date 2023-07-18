@@ -67,7 +67,7 @@ export function SnippetsTable({
       },
       {
         accessorKey: "code",
-        header: "Snippet",
+        header: "Code",
         enableSorting: false,
         cell: ({ cell }) => {
           const code = cell.getValue() as string;
